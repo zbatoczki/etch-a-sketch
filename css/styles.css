@@ -1,0 +1,30 @@
+*{box-sizing: border-box;}
+
+
+.sketchpad{width: 642px; height:642px; border: solid 1px black; margin: auto;}
+
+button,.square{display: inline-block;}
+
+h1,#menu{text-align: center;}
+
+h1{
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-family: "Comic Sans MS", sans-serif;
+	color: magenta;
+}
+
+#menu{margin-bottom: 10px;}
+
+button{
+	font-size: 20px;
+	border-radius: 5px;
+	background-color: white;
+	border-color: black;
+}
+
+.square{
+
+	float: left;
+	width: 40px; height: 40px;
+}
